@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-09T12:13:08 IST" name="Suite" finished-at="2022-03-09T12:13:36 IST" duration-ms="27514">
+    <groups>
+    </groups>
+    <test started-at="2022-03-09T12:13:08 IST" name="Test" finished-at="2022-03-09T12:13:27 IST" duration-ms="18335">
+      <class name="Udmy.Homepage">
+        <test-method is-config="true" signature="ititialize()[pri:0, instance:Udmy.Homepage@25be7b63]" started-at="2022-03-09T12:13:08 IST" name="ititialize" finished-at="2022-03-09T12:13:13 IST" duration-ms="4447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ititialize -->
+        <test-method signature="basepagenavigation(java.lang.String,java.lang.String)[pri:0, instance:Udmy.Homepage@25be7b63]" started-at="2022-03-09T12:13:13 IST" name="basepagenavigation" data-provider="test" finished-at="2022-03-09T12:13:18 IST" duration-ms="5053" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tet@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Udmy.Homepage@25be7b63]" started-at="2022-03-09T12:13:18 IST" name="teardown" finished-at="2022-03-09T12:13:19 IST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="ititialize()[pri:0, instance:Udmy.Homepage@25be7b63]" started-at="2022-03-09T12:13:19 IST" name="ititialize" finished-at="2022-03-09T12:13:22 IST" duration-ms="3419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ititialize -->
+        <test-method signature="basepagenavigation(java.lang.String,java.lang.String)[pri:0, instance:Udmy.Homepage@25be7b63]" started-at="2022-03-09T12:13:22 IST" name="basepagenavigation" data-provider="test" finished-at="2022-03-09T12:13:26 IST" duration-ms="3671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[don@gmail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Udmy.Homepage@25be7b63]" started-at="2022-03-09T12:13:26 IST" name="teardown" finished-at="2022-03-09T12:13:27 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Udmy.Homepage -->
+    </test> <!-- Test -->
+    <test started-at="2022-03-09T12:13:27 IST" name="Test 2" finished-at="2022-03-09T12:13:36 IST" duration-ms="8762">
+      <class name="Udmy.Validatetitile">
+        <test-method is-config="true" signature="ititialize()[pri:0, instance:Udmy.Validatetitile@62dae540]" started-at="2022-03-09T12:13:27 IST" name="ititialize" finished-at="2022-03-09T12:13:31 IST" duration-ms="3284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ititialize -->
+        <test-method signature="basepagenavigation()[pri:0, instance:Udmy.Validatetitile@62dae540]" started-at="2022-03-09T12:13:31 IST" name="basepagenavigation" finished-at="2022-03-09T12:13:31 IST" duration-ms="54" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<FEATURED COUR[ ]ES> but was:<FEATURED COUR[S]ES>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<FEATURED COUR[ ]ES> but was:<FEATURED COUR[S]ES>
+at junit.framework.Assert.assertEquals(Assert.java:100)
+at junit.framework.Assert.assertEquals(Assert.java:107)
+at Udmy.Validatetitile.basepagenavigation(Validatetitile.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagenavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Udmy.Validatetitile@62dae540]" started-at="2022-03-09T12:13:31 IST" name="teardown" finished-at="2022-03-09T12:13:32 IST" duration-ms="764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="ititialize()[pri:0, instance:Udmy.Validatetitile@62dae540]" started-at="2022-03-09T12:13:32 IST" name="ititialize" finished-at="2022-03-09T12:13:35 IST" duration-ms="3110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ititialize -->
+        <test-method signature="navigatn()[pri:0, instance:Udmy.Validatetitile@62dae540]" started-at="2022-03-09T12:13:35 IST" name="navigatn" finished-at="2022-03-09T12:13:35 IST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Udmy.Validatetitile@62dae540]" started-at="2022-03-09T12:13:35 IST" name="teardown" finished-at="2022-03-09T12:13:36 IST" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Udmy.Validatetitile -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- Suite -->
+</testng-results>
